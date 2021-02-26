@@ -7,7 +7,7 @@
 # "Monte Carlo Concepts, Algorithms, and applications",
 #  George S. Fishman, 1994
 # PRE-REQUISITES:
-# it needs bash and gnuplot interpreters, gnu make (or mingw32make)
+# it needs bash and gnuplot interpreters, gnu make (or mingw32-make)
 # it works under GNU/Linux, MacOSX, MS Win with msys2/mingw
 make plot.pdf
 # to create the new ps article
