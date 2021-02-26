@@ -1,0 +1,18 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{color}
+\usepackage{graphics}
+\usepackage{graphicx}
+%opening
+\title{Montecarlo Estimation Errors}
+\author{Francesco Lazzarotto}
+\begin{document}
+\maketitle
+\begin{abstract}
+The Monte Carlo method provides approximate
+solutions to a variety of mathematical problems by performing statistical sampling experiments on a computer. Among all numerical methods that rely on $n$-points evaluation in $m$-dimensional space to produce an approximate solution, the Monte Carlo method has absolute error of estimate that decreases as $n^{-1/2}$ whereas,
+in the absence of exploitable special structure, all others
+have errors that decrease as $n^{-1/m}$ at best.
+\end{abstract}
+\input{estimate.tex}
+\end{document}

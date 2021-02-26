@@ -1,0 +1,30 @@
+# example of creating gnuplot multicurve color plot
+# and embed automatically in a latex article (plot.tex)
+# to compile the latex source and produce a new version of the article
+# to create the new pdf article.
+# the idea on the compared curves and the abstract 
+# has been took by the introduction of the book:
+# "Monte Carlo Concepts, Algorithms, and applications",
+#  George S. Fishman, 1994
+# PRE-REQUISITES:
+# it needs bash and gnuplot interpreters, gnu make (or mingw32make)
+# it works under GNU/Linux, MacOSX, MS Win with msys2/mingw
+make plot.pdf
+# to create the new ps article
+make plot.ps
+# the plot example can be visualized on the screen with
+make plot
+# to remove all the generated files
+make clean
+#
+estimate
+├── estimate.eps
+├── estimate.gp
+├── Makefile
+├── plot_estimate.tex
+├── plot.tex
+├── prepare_plot_latex.sh
+├── prepare_plot.sh
+└── README
+
+0 directories, 8 files
