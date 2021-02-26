@@ -30,6 +30,6 @@ plot.pdf: plot.ps
 	ps2pdf plot.ps
 
 clean:
-	$(RM) plot.aux  plot.dvi  plot.log  plot.pdf \
-		plot.ps estimate.tex estimate.eps \
+	$(RM) plot.aux plot.dvi plot.log plot.pdf plot.ps \
+		estimate.gp estimate.tex estimate.eps \
 		estimate_latex.gp temp.gp temp.dat
