@@ -11,7 +11,7 @@ echo "set xrange [0:$MAXP]"  >> "$TEMPFILE"
 echo "set yrange [0:1]"  >> "$TEMPFILE"
 echo "set xlabel 'points (n)'"  >> "$TEMPFILE"
 echo "set ylabel 'dimensions (m)"  >> "$TEMPFILE"
-echo "set title  '$ n^{\frac{-1}{m}}, m \in (1,$(( $MAXD-1 ))) $"  >> "$TEMPFILE"
+echo "set title  '$ n^{\frac{-1}{m}}, m \in [1,$(( $MAXD-1 ))] $"  >> "$TEMPFILE"
 for m in $(eval echo {2..$MAXD});
 do
 	echo "set style line $m lt $m lw 2" >> "$TEMPFILE"
