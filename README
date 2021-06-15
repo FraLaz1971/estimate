@@ -11,6 +11,8 @@
 # and calc (also called apcalc), for doing real number computation
 # on a bash script
 # http://www.isthe.com/chongo/tech/comp/calc/
+# it needs also latex (texlive installation is ok) including
+# all batch related commands like divps ...
 # it works under GNU/Linux, MacOSX, MS Win with msys2/mingw
 make plot.pdf
 # to create the new ps article
